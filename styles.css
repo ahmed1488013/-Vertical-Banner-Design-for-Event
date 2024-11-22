@@ -1,0 +1,56 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Banner styles */
+.banner {
+    width: 24in;
+    height: 60in;
+    background-color: #F39C12;  /* Bold brand color */
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid #333333; /* Optional border for definition */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo container styles */
+.logo-container {
+    margin-bottom: 40px;  /* Increased space between logo and message */
+}
+
+/* Logo image */
+.brand-logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Promotional message styles */
+.promo-message h1 {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.promo-message p {
+    font-size: 20px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
